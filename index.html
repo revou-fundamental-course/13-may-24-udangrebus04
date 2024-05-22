@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KATIK</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <th><h1>Welcome To Katik</h1></th>
+            </tr>
+            <tr>
+                <td><p>Hai Sobat, Selamat Datang di KATIK :]<br>Sebuah web app sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p></td>
+            </tr>
+            <tr>
+                <td><h4>Segitiga</h4></td>
+            </tr>
+            <tr>
+                <td align="center" width="1249px"><a target="_blank" href="keliling.html"><b>Pindah ke Keliling</b></a></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th><h3>Luas Segitiga</h3></th>
+            </tr>
+            <tr>
+                <td align="center"><img src="segitiga.png" alt=""></td>
+            </tr>
+            <tr>
+                <td>Rumus luas segitiga :</td>
+            </tr>
+            <tr>
+                <td align="center"><b>L: 1/2 x a x t</b></td>
+            </tr>
+            <tr>
+                <td>Dimana: <br>L= Luas <br>a= Alas <br>t= Tinggi</td>
+            </tr>
+            <tr>
+                <td><h2>Hitung Luas Segitiga</h2></td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>Alas:</h5>
+                    <br>
+                    <input type="number" id="alas" name="alas">
+                    <br>
+                    <h5>Tinggi:</h5>
+                    <br>
+                    <input type="number" id="tinggi" name="tinggi">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" type="button" onclick=hitungLuas()><button>Hitung</button></td>
+            </tr>
+            <tr>
+                <td> Luas: <input type="text" id="luas" readonly></td>
+            </tr>
+            <tr>
+                <td align="right" type="button" onclick=resetLuas()><button>Reset</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

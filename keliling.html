@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keliling</title>
+    <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+    <div class="container">
+        <table>
+            <tr>
+                <th><h1>Keliling Segitiga</h1></th>
+            </tr>
+            <tr>
+                <td align="center"><a target="_blank" href="index.html"><b>Kembali ke Luas</b></a></td>
+            </tr>
+            <tr>
+                <td align="center"><img src="segitiga.png" alt=""></td>
+            </tr>
+            <tr>
+                <td>Rumus Keliling Segitiga:</td>
+            </tr>
+            <tr>
+                <td align="center"><b>K= S1 + S2 + S3</b></td>
+            </tr>
+            <tr>
+                <td>Dimana: <br>K= Keliling <br>S1= Sisi A <br>S2= Sisi B <br>S3= Sisi C</td>
+            </tr>
+            <tr>
+                <td><h2>Hitung Keliling Segitiga</h2></td>
+            </tr>
+            <tr>
+                <td>
+                    <h5>S1:</h5>
+                    <br>
+                    <input type="number" id="sisi1" name="sisi1">
+                    <br>
+                    <h5>S2:</h5>
+                    <br>
+                    <input type="number" id="sisi2" name="sisi2">
+                    <br>
+                    <h5>S3:</h5>
+                    <br>
+                    <input type="number" id="sisi3" name="sisi3">
+                </td>
+            </tr>
+            <tr>
+                <td align="center" type="button" onclick=hitungKeliling()><button>Hitung</button></td>
+            </tr>
+            <tr>
+                <td> Keliling: <input type="text" id="keliling" readonly></td>
+            </tr>
+            <tr>
+                <td align="right" type="button" onclick=resetKeliling()><button>Reset</button></td>
+            </tr>
+        </table>
+    </div>
+    <script src="js/script2.js"></script>
+</body>
+</html>
